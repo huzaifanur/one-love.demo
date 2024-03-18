@@ -1,0 +1,48 @@
+.signup-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+}
+
+.fName{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+.lName{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+#enter-bio{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+.signup-submit{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+.signup-submit:hover{
+    box-shadow: 0px 0px .25rem .25rem black;
+}

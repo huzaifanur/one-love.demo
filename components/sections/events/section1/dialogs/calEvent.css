@@ -1,0 +1,60 @@
+.cal-event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    text-align: center;
+}
+
+.cal-event-rsvp {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+.cal-event-details {
+    display: flex;
+    margin: 1em;
+    gap: 2em;
+}
+
+.rsvp-form {
+    display: flex;
+    gap: 1em;
+}
+
+.rsvp-submit {
+    border: none;
+    border-radius: 0.5em;
+    background-color: rgb(255, 238, 0);
+    font-weight: bold;
+    padding: 0.5em;
+    color: rgba(36, 36, 36, 0.904);
+}
+
+.cal-event-pin {
+    font-size: larger;
+    color: black;
+}
+
+.cal-clock-icon{
+    color: black;
+}
+
+.rsvp-input {
+    border-radius: 0.5em;
+    border: none;
+    padding-left: 0.5em;
+}
+
+.cal-event-location {
+    margin-bottom: 1em;
+}
+
+.cal-host-icon {
+    font-size: larger;
+    color: black;
+}
+
+.cal-event-desc {
+    max-width: 25vw;
+}

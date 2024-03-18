@@ -1,0 +1,77 @@
+.main-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-wrapper {
+  width: 500px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+input[type="text"],
+.form-group input {
+  background-color: #fff !important;
+  width: 100%;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.4rem;
+  border-color: #007bff;
+  outline: none;
+  border-width: 1px;
+}
+
+.title {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.selection-field {
+  margin-bottom: 20px;
+}
+
+select {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+}
+
+.cancel-btn {
+  background: black;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: gray;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

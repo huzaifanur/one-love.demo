@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+.message-form-div{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom:10%;
+}
+
+.message-form{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #D1FAFF;
+    border-radius: .35rem;
+    height: 75vh;
+    width: 45vw;
+    align-content: space-between;
+    text-align: left;
+    margin-bottom: 10%;
+    align-self: center;
+ 
+}
+
+.labelNameFields{
+    margin-left: 0vw;
+    font-family: 'Secular One';
+    font-size: large;
+}
+
+.labelNonNameFields{
+    margin-left: 5%;
+    font-family: 'Secular One';
+    font-size: large;
+}
+
+
+
+.first-last-name-div{
+    display: flex;
+    /* flex-direction: ; */
+    justify-items: left;
+    margin-top: 8%;
+}
+
+.nameField-div{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.name-message-input{
+    border-radius: .35rem;
+    background-color: white;
+    padding: 3%;
+    border:none;
+}
+
+.message-input:focus{
+    outline: none;
+}
+
+.message-input{
+    
+    border-radius: .35rem;
+    background-color: white;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border:none;
+}
+
+
+.message-submit{
+    position: relative;
+    background-color: #FEC601;
+    /* padding: 0 15px; */
+    border: none;
+    border-radius: .35rem;
+    height: 3rem;
+    width: 20%;
+    font-family: 'Secular One';
+    font-size: large;
+    margin-left:5%;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 600px){
+.message-form-div{
+    max-width: 100%;
+    /* min-width: 40%; */
+    
+    /* margin-right: 20%; */
+}
+
+.message-form{
+
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100%; */
+    min-width: 90%;
+    min-width: 100%;
+    margin-right: 10%;
+    max-height: 100vw;
+    background-color: #D1FAFF;
+    border-radius: .35rem;
+    align-self: left;
+    align-content: space-between;
+    text-align: left;
+    margin-bottom: 0%;
+}
+.first-last-name-div{
+    display: flex;
+    flex-direction: row;
+    /* justify-items: flex-start; */
+    justify-items: space-between;
+    margin-top: 2%;
+    max-width: 90%;
+}
+
+.nameField-div{
+    max-width: 50%;
+    margin-left: 2%;
+}
+
+.name-message-input{
+    margin-left: 5%;
+    max-width: 100%;
+}
+}

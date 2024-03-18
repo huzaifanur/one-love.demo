@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.profile-div {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.profile-image-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #f8c291; */
+  border-radius: 0.5rem;
+  /* height: auto; */
+}
+
+.profile-image {
+  height: 10rem;
+  margin-top: 2vh;
+}
+
+.profile-info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  padding: 24px;
+  height: auto;
+  background-color: #d1faff;
+  border-radius: 1rem;
+  margin: 40px auto;
+}
+
+.profile-header {
+  margin-top: 1.5rem;
+  font-family: "Secular One";
+  color: #096fbd;
+  font-size: 3rem;
+}
+
+.profile-user-name-header {
+  font-family: "Secular One";
+  color: #074a7e;
+  margin-top: 2rem;
+}
+
+.profile-user-name-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-user-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Secular One";
+  border: 1px solid rgb(24, 24, 146);
+  border-radius: 0.35rem;
+  text-align: center;
+}
+
+.profile-user-name-button {
+  border-radius: 0.35rem;
+  background-color: rgb(48, 45, 45);
+  color: white;
+  margin-top: 0.5rem;
+  width: 4.25rem;
+}
+
+.profile-about-header {
+  display: flex;
+  margin-top: 3rem;
+  font-family: "Secular One";
+  color: #074a7e;
+}
+
+.profile-about-form {
+  margin-top: 1rem;
+}
+
+.profile-about-info {
+  padding: 0.5rem;
+  height: auto;
+  width: 100%;
+  overflow: auto;
+  overflow-wrap: normal;
+  border-radius: 0.35rem;
+}
+
+.profile-about-button {
+  border-radius: 0.35rem;
+  background-color: rgb(48, 45, 45);
+  color: white;
+}
+
+.profile-line-break {
+  height: 3px;
+  color: black;
+  margin-top: 2rem;
+}
+
+.profile-email-header {
+  display: flex;
+  font-family: "Secular One";
+  color: #074a7e;
+  margin-top: 2rem;
+}
+
+.profile-email {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.profile-email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Secular One";
+  border: 1px solid rgb(24, 24, 146);
+  border-radius: 0.35rem;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-email-button {
+  border-radius: 0.35rem;
+  background-color: rgb(48, 45, 45);
+  color: white;
+  margin-left: 1rem;
+}
+
+button {
+  padding: 8px;
+}

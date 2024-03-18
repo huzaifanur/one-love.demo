@@ -1,0 +1,48 @@
+.login-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    gap: .35rem;
+}
+
+.email{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+.password{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+.login-submit{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: .35rem;
+}
+
+.login-submit:hover{
+    box-shadow: 0px 0px .25rem .25rem black;
+}
+.error-text{
+    color: red;
+}

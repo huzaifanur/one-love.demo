@@ -1,0 +1,24 @@
+.page-links {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: whitesmoke !important;
+}
+
+.page-links:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.15rem;
+  bottom: 0;
+  left: 0;
+  background-color: whitesmoke;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.page-links:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

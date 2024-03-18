@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.instructionsIncluded {
+  display: flex;
+  flex-direction: column;
+}
+.calendarInstructions {
+  align-self: center;
+  padding-top: 2em;
+  font-weight: bold;
+  max-width: 100%;
+  text-align: center;
+}
+.calendar {
+  display: flex;
+  min-height: 100%;
+  font-family: "Secular One";
+  font-size: 15px !important;
+  justify-content: center;
+  background-color: #d1faff;
+  width: 100%;
+  padding-bottom: -1rem;
+}
+
+.events-calendar-div {
+  width: 100%;
+}
+
+/* Calendar pre-set styling className */
+.fc {
+  height: 80vh;
+  width: 60vw;
+  background-color: #65b0e9;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Calendar header pre-set styling className */
+.fc-header-toolbar {
+  margin: 1rem;
+}
+
+/* Calendar header title pre-set styling className */
+.fc-toolbar-title {
+  font-family: "Secular One";
+}
+
+/* Top and Left side of Calendar border styling */
+table {
+  border-color: grey !important;
+  border-radius: 0.5rem;
+  background-color: azure;
+  border-width: 0.1em !important;
+  padding-left: 0.1em;
+}
+
+/* Right side of Saturday header border style. Only way to complete full black border outline */
+th {
+  border-color: grey !important;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  border-width: 0.05em 0.05em 0em 0.05em !important;
+}
+
+/* Bottom and Right side of Calendar border styling */
+td {
+  border-color: grey !important;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  border-width: 0.05em !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.fc-event-main {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.fc-daygrid-event {
+  white-space: break-spaces !important;
+}
+
+@media (max-width: 600px) {
+  .calendar {
+    /* display: flex; */
+    min-height: 80%;
+    /* min-width: 95%; */
+    max-height: 100%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    background-color: #d1faff;
+    width: 100%;
+    padding-bottom: -1rem;
+  }
+
+  .calendar-main {
+    flex-grow: 1;
+    margin-top: 20%;
+    min-width: 100%;
+    max-width: 190%;
+
+    margin-left: -50%;
+    margin-right: -50%;
+    margin-bottom: -30%;
+    /* padding: 10em; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  table {
+    border-color: black !important;
+    border-radius: 0.5rem;
+    background-color: azure;
+  }
+
+  .fc-media-screen {
+    min-width: 80%;
+  }
+  table {
+    min-width: 100%;
+  }
+
+  .fc-daygrid-body {
+    min-width: 100%;
+  }
+}

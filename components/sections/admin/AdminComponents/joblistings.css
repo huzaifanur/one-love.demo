@@ -1,0 +1,30 @@
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  font-size: 2rem;
+}
+
+.update-btn-wrapper button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.selection-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.public-listing-section {
+  margin-top: 200px;
+  overflow: auto;
+  padding: 2rem;
+}
