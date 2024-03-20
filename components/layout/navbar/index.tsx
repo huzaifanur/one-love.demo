@@ -5,6 +5,7 @@ import ProfileButton from "./ProfileButton";
 import logo from "@/assets/images/logo-nobackground-140.png";
 import "./styles.css";
 import Image from "next/image";
+import Section from "@/components/shared/Section";
 const Navbar = () => {
   return (
     <div className="bg-blue fixed top-0 w-full text-white flex justify-around items-center p-4 z-50">
